@@ -1,0 +1,117 @@
+img{
+    width: 80px;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3xyRmW79jSj2ljzM6NlPr0ExRH9Dcm93Zxg&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+h1{
+    font-family:'Poppins';
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 45px;
+}
+
+p{
+    font-family:'Poppins';
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(159, 157, 224);
+    font-size:25px;
+    font-weight: bold;
+    border-radius: 10px;
+
+  }
+  
+  li {
+    float: left;
+    border-right:2px solid #bbb;
+  }
+ 
+  
+  li a {
+    display: block;
+    color: rgb(248, 246, 246);
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active), .active {
+
+    background-color: rgb(100, 106, 187);
+  }
+  .container{
+      padding: 5px 20px 15px 20px;
+      margin-top: 5px;
+      border: 1px solid light gray;
+      border-radius: 4px;
+  }
+  input[type = "text"],
+  input[type = "email"],
+  input[type = "number"],
+  input[type = "password"],
+  select,
+  textarea {
+      width: 50%;
+      margin-bottom: 10px;
+      padding: 12px;
+      border: 1px solid;
+      border-radius: 5px;
+  }
+  .box
+    input[type = "text"],
+    input[type = "radio"],
+    input[type = "time"],
+    select,
+    textarea {
+        width:50%;
+        margin-bottom: 10px;
+        padding: 12px;
+        border: 1px solid;
+        border-radius: 5px;
+    } 
+  
+  .button{
+        background-color: #dba8d9; /* Green */
+        /* background-image: url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_960_720.jpg); */
+        margin-left: 435px;
+        hover: black;
+        color:red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        
+  }
+ 
+  /* rgb(190, 189, 228) */
+  
+
+h3{
+    font-family:'Poppins';
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+}
